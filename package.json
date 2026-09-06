@@ -15,7 +15,7 @@
     "test:watch": "vitest"
   },
   "dependencies": {
-    "tiny-cqrs": "file:../tiny-cqrs"
+    "tiny-cqrs": "https://github.com/mnhpub/tiny-cqrs/archive/refs/tags/v0.1.0.tar.gz"
   },
   "devDependencies": {
     "typescript": "^5.7.3",
