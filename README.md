@@ -1,5 +1,9 @@
 # ledger-kit
 
+> **This repository has moved.** Development continues at
+> **[github.com/LedgerWriter/ledger-kit](https://github.com/LedgerWriter/ledger-kit)** — please
+> open issues/PRs and depend on releases there instead. This repo is archived (read-only).
+
 Accounting/finance helpers for [`tiny-cqrs`](https://github.com/mnhpub/tiny-cqrs): double-entry
 invariants, decimal-safe amounts, and an audit-log projection helper. This is the first "flavor"
 package built on `tiny-cqrs` — it's an ordinary consumer of the core library, not a plugin; a
