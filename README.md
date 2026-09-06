@@ -1,9 +1,12 @@
 # ledger-kit
 
-Accounting/finance helpers for [`tiny-cqrs`](../tiny-cqrs): double-entry invariants, decimal-safe
-amounts, and an audit-log projection helper. This is the first "flavor" package built on
-`tiny-cqrs` — it's an ordinary consumer of the core library, not a plugin; a `construction-kit` or
-`media-kit` would follow the exact same pattern with no changes to `tiny-cqrs` itself.
+Accounting/finance helpers for [`tiny-cqrs`](https://github.com/mnhpub/tiny-cqrs): double-entry
+invariants, decimal-safe amounts, and an audit-log projection helper. This is the first "flavor"
+package built on `tiny-cqrs` — it's an ordinary consumer of the core library, not a plugin; a
+`construction-kit` or `media-kit` would follow the exact same pattern with no changes to
+`tiny-cqrs` itself.
+
+**Status:** pre-1.0 (currently v0.1.0), tracking `tiny-cqrs`'s own pre-1.0 status.
 
 ## Install
 
@@ -30,6 +33,12 @@ npm install tiny-cqrs ledger-kit
 See `test/journal-entry.integration.test.ts` for a minimal JournalEntry aggregate composing
 `tiny-cqrs`'s `executeCommand` with `assertBalanced` — the shape a real migration (e.g.
 ledgerwriter.com's `journal-entry-commands.ts`) follows.
+
+## Contributing
+
+Bug reports, additional accounting helpers, and documentation fixes are welcome — see
+[CONTRIBUTING.md](CONTRIBUTING.md) for how to get set up and what's in vs. out of scope for this
+repo specifically.
 
 ## License
 
